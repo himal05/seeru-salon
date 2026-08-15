@@ -49,9 +49,12 @@ export const locations = [
 ];
 
 export const testimonials = [
-  { name: "Aarati K.", service: "Bridal Makeup", quote: "The team understood the look I wanted immediately. I felt calm, cared for and completely myself on my wedding day." },
-  { name: "Samikshya R.", service: "Hair Colour", quote: "Beautiful colour, thoughtful advice and such a relaxing experience. My hair still feels healthy and soft." },
-  { name: "Nisha P.", service: "Glow Facial", quote: "The consultation was detailed and honest. My skin looked noticeably brighter without feeling irritated." },
+  { name: "पूजा श्रेष्ठ", service: "Haircut & Styling", quote: "Aabha by Sirjana मा मेरो experience एकदमै राम्रो रह्यो। Staff हरू धेरै friendly र professional हुनुहुन्छ। Haircut र styling मेरो face shape अनुसार एकदमै राम्रो गरिदिनुभयो। अबदेखि मेरो favorite salon यही हो।" },
+  { name: "सुमिना अधिकारी", service: "Bridal Makeup", quote: "Bridal makeup को लागि मैले Aabha by Sirjana रोजेकी थिएँ र result साँच्चै सुन्दर आयो। Makeup natural, elegant र long-lasting थियो। मेरो special day अझै special बनाइदिनुभएकोमा धेरै धन्यवाद।" },
+  { name: "रचना भण्डारी", service: "Hair Spa", quote: "Salon को environment धेरै clean, peaceful र premium लाग्यो। Hair spa पछि मेरो hair एकदम soft र shiny भयो। Service र hospitality दुवै मन पर्यो। Highly recommended!" },
+  { name: "अञ्जली कार्की", service: "Hair Colour & Styling", quote: "मैले hair color र styling गराएको थिएँ। Sirjana ma’am ले मेरो skin tone र hair type अनुसार color suggest गर्नुभयो र final look expectation भन्दा पनि राम्रो आयो। एकदमै satisfied छु।" },
+  { name: "निशा थापा", service: "Facial & Eyebrows", quote: "पहिलो पटक आएको भए पनि staff ले एकदम comfortable feel गराउनुभयो। Facial र eyebrow service निकै राम्रो थियो। Hygiene मा पनि राम्रो ध्यान दिएको देखियो। फेरि अवश्य आउनेछु।" },
+  { name: "सरिता गौतम", service: "Party Makeup", quote: "Aabha by Sirjana मा service मात्र होइन, customer care पनि excellent छ। मेरो party makeup धेरै natural र classy बनाइदिनुभयो। सबैले makeup को compliment गर्नुभयो। Thank you so much!" },
 ];
 
 export const faqs = [

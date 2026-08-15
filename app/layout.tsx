@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Manrope } from "next/font/google";
+import { Cormorant_Garamond, Manrope, Noto_Sans_Devanagari } from "next/font/google";
 import "./globals.css";
 
 const sans = Manrope({ variable: "--font-sans", subsets: ["latin"] });
 const serif = Cormorant_Garamond({ variable: "--font-serif", subsets: ["latin"] });
+const devanagari = Noto_Sans_Devanagari({ variable: "--font-devanagari", subsets: ["devanagari"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aabha-beauty.example"),
@@ -17,5 +18,5 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const schema = { "@context":"https://schema.org", "@type":"BeautySalon", name:"Aabha by Sirjana", telephone:"9864460351", address:{"@type":"PostalAddress",addressLocality:"Kathmandu",addressCountry:"NP"}, priceRange:"Rs. [EDITABLE]" };
-  return <html lang="en"><body className={`${sans.variable} ${serif.variable}`}>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}} /></body></html>;
+  return <html lang="en"><body className={`${sans.variable} ${serif.variable} ${devanagari.variable}`}>{children}<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}} /></body></html>;
 }
